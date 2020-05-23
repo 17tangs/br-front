@@ -9,6 +9,7 @@ import Header from './Header';
 import logo from './logo.svg';
 import './resources/animate.css'
 import './App.css';
+import QuizOutput from './QuizOutput';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/info" component={Connect}/>
           // <Route exact path="/shop" component={Shop}/>
           <Route exact path="/print" component={Print}/>
+          <Route exact path="/quiz" component={QuizOutput}/>
         </Switch>
     </div>
   );

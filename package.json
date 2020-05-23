@@ -9,6 +9,8 @@
     "apollo-boost": "^0.4.3",
     "graphql": "^14.4.2",
     "react": "^16.8.6",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-update": "^15.6.2",
     "react-apollo": "^2.5.8",
     "react-dom": "^16.8.6",
     "react-hamburger-menu": "^1.2.1",

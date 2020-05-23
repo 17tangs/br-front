@@ -1,26 +1,7 @@
-.App {
-  text-align: center;
-}
-
-
-.App-header {
-  background-color: gray;
-  min-height: 2vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: red;
-}
 body {
   margin: 0;
   padding: 0;
-  background: black;
+  background: #eee;
   font-family: sans-serif;
 }
  
@@ -28,7 +9,7 @@ body {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
-  background: gray;
+  background: #fff;
   border-radius: 3px;
 }
  
@@ -68,7 +49,7 @@ body {
 }
  
 .answerOption:hover {
-  background-color: lightgreen;
+  background-color: #eefbfe;
 }
  
 .radioCustomButton {

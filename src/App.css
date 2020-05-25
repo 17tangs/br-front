@@ -28,8 +28,8 @@ body {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
-  background: gray;
-  border-radius: 3px;
+  background: #191919;
+  border-radius: 8px;
 }
  
 @media (min-width: 769px) {
@@ -64,11 +64,11 @@ body {
  
 /* AnswerOption Component */
 .answerOption {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #444444;
 }
  
 .answerOption:hover {
-  background-color: lightgreen;
+  background-color: var(--blue);
 }
  
 .radioCustomButton {

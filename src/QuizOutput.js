@@ -5,6 +5,8 @@ import quizQuestions from './api/quizQuestions';
 import Quiz from './Components/Quiz';
 import Result from './Components/Result';
 import got from './images/got.jpg';
+import Header from './Header';
+import Footer from './Footer';
 import logo from './svg/logo.svg';
 import './App.css';
  
@@ -129,12 +131,14 @@ class QuizOutput extends Component {
  
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
+      <div className="flex justify-center home">
+        <Header/>
+        {/*<div className="App-header">
           <img src={got} className="App-img" alt="img" />
           
-        </div>
+    </div>*/}
         {this.state.result ? this.renderResult() : this.renderQuiz()}
+        <Footer/>
       </div>
     );
 

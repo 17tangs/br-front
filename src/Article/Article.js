@@ -137,7 +137,7 @@ export default class Article extends Component{
           <Header />
             <div className="main flex justify-center">
             <Zoom delay={delay1*50}>
-              <div className="primary card">
+              <div className="primary card" style={{overflow:"hidden"}}>
                   <h3 id="article-title">{this.state.post.title}</h3>
                     {image}
                   <div dangerouslySetInnerHTML={{ __html: this.state.post.html }}/>

@@ -12,7 +12,7 @@ export default class Header extends Component{
     }
     render(){
         return(
-            <div className="flex justify-start container">
+            <div className="flex justify-start header_container">
                 <div className="flex vertical-text">
                     <div className="line-bottom"></div>
                         <div className="searchIcon" onClick={this.props.clickSearch}/>

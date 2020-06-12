@@ -80,12 +80,14 @@ body {
 .radioCustomButton,
 .radioCustomLabel {
     display: inline-block;
+    text-align: left;
     vertical-align: middle;
     cursor: pointer;
 }
  
 .radioCustomLabel {
     position: relative;
+    text-align: left;
     width: 100%;
     margin: 0;
     padding: 1.5rem 2.5rem 1.5rem 5rem;

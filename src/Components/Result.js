@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
- 
+function refreshPage(){ 
+    window.location.reload(); 
+}
+
 function Result(props) {
 	return (
 		<ReactCSSTransitionGroup
@@ -16,6 +19,7 @@ function Result(props) {
 			<div>
 				You are a <strong>{props.quizResult}</strong>!
 			</div>
+			<button type="button" onClick={ refreshPage }> <span>Retake the quiz</span> </button>
 		</ReactCSSTransitionGroup>
 	);
 }

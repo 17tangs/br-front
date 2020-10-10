@@ -1,17 +1,14 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./Home/Home";
-import Shop from "./Shop/Shop";
 import Article from "./Article/Article";
 import Connect from "./Connect/Connect";
 import Apply from "./Connect/Apply";
 import Print from "./Print/Print";
-import Header from "./Header";
-import logo from "./logo.svg";
 import "./resources/animate.css";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App" style={{ width: "100%", height: "100%" }}>
       <Switch>
@@ -25,5 +22,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

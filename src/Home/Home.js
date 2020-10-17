@@ -153,7 +153,12 @@ export default class Home extends Component{
         }
     }
 
+    
+
+    
     transitionToFull = (e)=>{
+        console.log("hi");
+        console.log(e);
         this.setState({searchVal:'$'})
         setTimeout(()=>{this.props.history.push({pathname: `/article/${e}`})}, 500);
     }
